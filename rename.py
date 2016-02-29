@@ -8,7 +8,7 @@ import shutil
 
 def mv(i, o):
     if os.path.isdir(o):
-        print o
+        print(o)
     else:
         shutil.move(i, o)
 
