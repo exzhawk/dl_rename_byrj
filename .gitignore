@@ -1,3 +1,4 @@
+*.jl
 /offline
 
 ### JetBrains template
