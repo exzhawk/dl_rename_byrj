@@ -8,7 +8,7 @@ import re
 from lxml import etree
 
 if __name__ == '__main__':
-    rj_re = re.compile(r'/(RJ\d*.)\.html')
+    rj_re = re.compile(r'/(RJ\d*)\.html')
     offline_dir = 'offline'
     files = os.listdir(offline_dir)
     result_list = []
